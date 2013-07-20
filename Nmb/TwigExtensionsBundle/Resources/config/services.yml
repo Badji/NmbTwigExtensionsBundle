@@ -1,0 +1,12 @@
+parameters:
+#    nmb_twig_extensions.example.class: Nmb\TwigExtensionsBundle\Example
+    lolcat: 'coucou'
+services:
+#    nmb_twig_extensions.example:
+#        class: %nmb_twig_extensions.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    nmb.parameters.twig_extension:
+        class: Nmb\TwigExtensionsBundle\Twig\Extensions\ParametersHelper
+        arguments: [@service_container]
+        tags:
+          - { name: twig.extension }
