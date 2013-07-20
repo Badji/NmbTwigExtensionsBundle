@@ -1,0 +1,25 @@
+{
+    "name": "Nmb/TwigExtensionsBundle",
+    "type": "symfony-bundle",
+    "description": "Add some functions and filters to twig",
+    "keywords": ["Parameters", "Twig", "Extension", "Filters"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Belkebir Nadjib",
+            "email": "belkebir.nadjib@gmail.com",
+            "homepage": "https://github.com/Badji"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony":         ">=2.0,<=2.3-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nmb\\TwigExtensionBundle": ""
+        }
+    },
+    "target-dir": "Nmb/TwigExtensionsBundle",
+    "minimum-stability": "dev"
+}
