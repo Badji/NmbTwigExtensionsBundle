@@ -1,5 +1,5 @@
 {
-    "name": "Nmb/TwigExtensionsBundle",
+    "name": "nmb/twig-extensions-bundle",
     "type": "symfony-bundle",
     "description": "Add some functions and filters to twig",
     "keywords": ["Parameters", "Twig", "Extension", "Filters"],
