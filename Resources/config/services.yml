@@ -1,6 +1,5 @@
 parameters:
-#    nmb_twig_extensions.example.class: Nmb\TwigExtensionsBundle\Example
-    lolcat: 'coucou'
+
 services:
 #    nmb_twig_extensions.example:
 #        class: %nmb_twig_extensions.example.class%
