@@ -10,7 +10,7 @@ Add NmbTwigExtensionsBundle to your composer.json
 ```js
 {
     "require": {
-        "nmb/twig-extensionsbundle": "dev-master"
+        "nmb/twig-extensions-bundle": "dev-master"
     }
 }
 ```
